@@ -11,3 +11,5 @@ steps:
   args: ['run', 'deploy', 'runwithcicd', '--image', 'gcr.io/gcp-devops-466218/runimage', '--region', 'us-central1', '--allow-unauthenticated']
 images:
 - gcr.io/gcp-devops-466218/runimage
+  # logging
+- logging: NONE   
